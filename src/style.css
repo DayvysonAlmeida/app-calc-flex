@@ -1,0 +1,54 @@
+/* Reset de margens e preenchimento para garantir consistência */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centralizar o conteúdo vertical e horizontalmente */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #28363a;
+}
+
+/* Estilizar o contêiner de conteúdo */
+.conteudo {
+    text-align: center;
+    background-color: #ffffff6c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilizar o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilizar os campos de entrada e botões */
+form input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="button"], form input[type="reset"] {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilizar a imagem */
+#status {
+    max-width: 100%;
+    height: auto;
+}
